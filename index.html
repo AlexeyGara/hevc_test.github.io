@@ -1,1 +1,45 @@
-Hello Alexey
+<!DOCTYPE html>
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>MediaPlayers Count Test</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <!--<video src="https://poc-server.core-client.playticorp.com/uploaded_items/monosyne_3_11_sync/assets/MHAXE943/sh-game483.slot.icons-854x480-5.13873.22874-en/anim_13_wild_1.webm" muted autoplay controls loop></video>
+  <video src="https://poc-server.core-client.playticorp.com/uploaded_items/monosyne_3_11_sync/assets/MHAXE943/sh-game483.slot.icons-854x480-5.13873.22874-en/anim_0_1.webm" muted autoplay controls loop></video>
+  <video src="https://poc-server.core-client.playticorp.com/uploaded_items/monosyne_3_11_sync/assets/VideoScene/1.webm" muted autoplay loop></video>
+  <video src="https://poc-server.core-client.playticorp.com/uploaded_items/monosyne_3_11_sync/assets/VideoScene/anim_6_4.webm" muted autoplay loop></video>
+  <video src="https://poc-server.core-client.playticorp.com/uploaded_items/monosyne_3_11_sync/assets/VideoScene/video_07.webm" muted autoplay loop></video>-->
+  <!--<audio src="https://poc-server.core-client.playticorp.com/uploaded_items/monosyne_3_11_sync/assets/LottoBonus/sounds/bingo ball getting out part1.mp3" controls></audio>-->
+  <label for="stages">Stage:</label>
+  <select name="stages" id="stages">
+    <option value="vs-fb-cdn.playtika.com/playtika/vs_fb_en_haxe/assets/cid_726.6_652.0_5.21319.35005/">Prod</option>
+    <option value="sm-stage134-appv-01.cloud.playtika.com/playtika/vs_fb_en_haxe/assets/cid_726.6_652.0_5.20215.34094/">stage 134</option>
+  </select>
+  <label for="formats">video type:</label>
+  <select name="formats" id="formats">
+    <option value="stage_MP4">h264/MP4 (stage/prod)</option>
+    <option value="stage_WEBM">WEBM (stage/prod)</option>
+    <option value="github_MP4">h264/MP4 (github.io)</option>
+    <option value="github_MP4_low">h264/MP4 -low- (github.io)</option>
+    <option value="github_HEVC">h265/HEVC (github.io)</option>
+    <option value="github_HEVC_low">h265/HEVC -low- (github.io)</option>
+  </select>
+  <input id="basePath" type="text" style="width:100%" name="base path" value="">
+  <textarea id="urls" style="width:100%;height:80px"></textarea>
+  <input id="input" type="number" style="width:7%" name="count of video" min="10" max="600" value="1">
+  <input id="useSources" type="checkbox" name="useSources"><label for="useSources">use sources</label>
+  <input id="playsInline" type="checkbox" name="playsInline"><label for="playsInline">plays inline</label>
+  <input id="onlyMetadata" type="checkbox" name="onlyMetadata"><label for="onlyMetadata">"metadata" preload only</label>
+  <input id="addToDOM" type="checkbox" name="addToDOM"><label for="addToDOM">add to DOM hidden</label>
+  <button id="start" style="width:40%">START TEST</button>
+  <button id="play" style="width:30%">Play next</button>
+  <button id="reset" style="width:20%">RESET</button>
+  <textarea id="output" style="width:100%; height:128px;"></textarea>
+  <div id="playground" class=""></div>
+  
+  <script type="text/javascript" src="index.js"></script>
+</body></html>
