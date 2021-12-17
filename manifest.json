@@ -1,0 +1,47 @@
+{
+	"name": "MediaPlayers Count Test PWA",
+	"short_name": "media_test_pwa",
+	"icons": [
+		{
+			"src": "./icons/pwa_36.png",
+			"type": "image/png",
+			"sizes": "36x36"
+		},
+		{
+			"src": "./icons/pwa_48.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "./icons/pwa_72.png",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "./icons/pwa_96.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "./icons/pwa_144.png",
+			"type": "image/png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "./icons/pwa_192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./icons/pwa_512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "./",
+	"scope": "/",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#FFFFFF",
+	"theme_color": "#FFFFFF"
+}
